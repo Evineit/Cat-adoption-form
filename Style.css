@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+html{
+    background-image: url("https://cdn.pixabay.com/photo/2018/10/10/13/51/cat-3737288_960_720.jpg");
 
+}
 html,
 body {
   /* background-color: #a9d7d1; */
 background-attachment: fixed;
-background-image: url("https://cdn.pixabay.com/photo/2018/10/10/13/51/cat-3737288_960_720.jpg");
 background-repeat: no-repeat;
 background-size: cover;
   text-align: center;
@@ -124,7 +126,16 @@ input{
 }
 
 @media screen and (max-width: 520px) {
-    
+html{
+    background-size: 100%
+}
+    body{
+        margin: auto;
+        
+    }
+    #form-outer{
+        width: auto;
+    }
   .labels {
     width: 100%;
     text-align: center;
